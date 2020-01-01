@@ -1,2 +1,5 @@
+#!/bin/sh
 cp .config/i3/config ~/.config/i3/config
 cp .Xdefaults ~/
+cp .config/i3/i3blocks.conf /home/moro/.config/i3/i3blocks.conf
+cp -r .config/i3/i3blocks/ /home/moro/.config/i3/
