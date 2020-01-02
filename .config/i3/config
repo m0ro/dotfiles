@@ -107,8 +107,8 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # workspace names / font-awesome
-set $ws1 "1 system"
-set $ws2 "2 firefox"
+set $ws1 "1 sys"
+set $ws2 "2 web"
 set $ws3 "3 irc"
 set $ws4 "4"
 set $ws5 "5"
