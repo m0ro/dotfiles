@@ -8,6 +8,7 @@ exec setxkbmap -option grp:alt_shift_toggle us, fr
 
 #exec ~/.fehbg
 exec --no-startup-id nm-applet
+#exec --no-startup-id guake
 #exec --no-startup-id blueman-applet
 #exec --no-startup-id nextcloud
 
@@ -27,11 +28,11 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+#font pango:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+font pango:DejaVu Sans Mono 8
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -44,8 +45,8 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id rxvt -e fish
-
+bindsym $mod+Return exec --no-startup-id rxvt -e fish # some issues with UTF8?
+#bindsym $mod+Return exec --no-startup-id gnome-terminal -e fish
 # kill focused window
 bindsym $mod+Shift+q kill
 

@@ -3,11 +3,13 @@
 read/refs: 
 https://wiki.archlinux.org/index.php/Dotfiles
 https://github.com/morhetz/gruvbox-contrib
+https://github.com/ryanoasis/nerd-fonts
 
 install
-* rxvt
+* gnome-terminal
 * i3
-* cascadia-code
+* nerd-fonts
+* cascadia-code fonts
 * oh-my-fish
  * omf <theme>
 * i3blocks
