@@ -1,2 +1,8 @@
 #!/bin/bash
-ifconfig |grep -Po '(?<=mullvad\-).+?(?=: )' 
+# when interface is down, the i3bar still show the last VPN
+VAR="$(ifconfig |grep -Po '(?<=mullvad\-).+?(?=: )')"
+if [ -n "$VAR" ]; then
+    echo $VAR
+else
+    echo "no mullvad"
+fi
