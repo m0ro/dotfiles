@@ -1,9 +1,10 @@
 # dotfiles
 
-read/refs: 
-https://wiki.archlinux.org/index.php/Dotfiles
-https://github.com/morhetz/gruvbox-contrib
+read/refs:  
+https://wiki.archlinux.org/index.php/Dotfiles  
+https://github.com/morhetz/gruvbox-contrib  
 https://github.com/ryanoasis/nerd-fonts
+
 
 install
 * gnome-terminal
