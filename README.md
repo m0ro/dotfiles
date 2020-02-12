@@ -11,6 +11,7 @@ install
 * i3
 * nerd-fonts
 * cascadia-code fonts
-* oh-my-fish
+* oh-my-fish  
+https://github.com/oh-my-fish/oh-my-fish
  * omf <theme>
 * i3blocks
