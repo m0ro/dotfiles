@@ -13,5 +13,5 @@ install
 * cascadia-code fonts
 * oh-my-fish  
 https://github.com/oh-my-fish/oh-my-fish
- * omf <theme>
+ * omf theme
 * i3blocks
